@@ -1,0 +1,122 @@
+.welcome{
+    background-color: rgb(205,179,128);
+    border-radius: 2%;
+    color: rgb(3,22,52);
+    animation: welcome 2s 1;
+}
+.hello{
+    color: rgb(3,22,52);
+}
+.img-fluid{
+    border-radius: 7%;
+}
+.btn-download{
+    animation: fadeIn 2s ifinte;
+}
+.education{
+    border: 2px solid  rgb(232,221,203);
+    color: rgb(3,101,100);
+} 
+.edu-1{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.edu-2{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}        
+.edu-3{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.edu-4{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.experience{
+    border: 2px solid  rgb(232,221,203);
+    color: rgb(3,101,100);
+} 
+.google{
+    border: none;
+    border-left: 5px solid rgb(232,221,203); 
+}
+.apple{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.yandex{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.facebook{
+    border: none;
+    border-left: 5px solid rgb(232,221,203);
+}
+.skills{
+    color: rgb(3,101,100);
+}
+.hobby-section{
+    border: 1px solid black;
+}
+.interest{
+    animation: slideIn 4s 2;
+}
+.fas{
+    font-size: 30px;
+}
+.fab{
+    font-size: 30px;
+}
+.card-title{
+    font-size: 50px;
+}
+.inp-footer{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#contacts input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.map-container{
+    overflow:hidden;
+    position:relative;
+    padding-bottom: 56%;
+    height: 0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+@keyframes slideIn{
+    from{
+        opacity: 0
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        background-color: black;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes welcome{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1
+    }
+}
